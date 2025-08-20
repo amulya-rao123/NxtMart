@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import CategorySidebar from "./CategorySidebar";
 import ProductList from "./ProductList";
 import Loader from "./Loader";
+import Footer from "./Footer";
 
 const MainHome = ({ searchQuery = "", setSearchQuery }) => {
   const [categories, setCategories] = useState([]);
@@ -91,17 +92,7 @@ const MainHome = ({ searchQuery = "", setSearchQuery }) => {
     </div>
 
 
-      <footer className="bg-green-900 text-white text-center py-6 hidden md:block">
-        <p>
-          For any queries, contact +91-9876543210 or mail us help@nxtmart.co.in
-        </p>
-        <div className="flex justify-center space-x-4 mt-4">
-          <span>📘</span>
-          <span>📍</span>
-          <span>🐦</span>
-          <span>📸</span>
-        </div>
-      </footer>
+      <Footer/>
     </div>
   );
 };
