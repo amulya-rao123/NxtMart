@@ -10,7 +10,7 @@ const CategorySidebar = ({ categories, selectedCategory, onSelect }) => {
         overflow-x-auto md:overflow-y-auto
         whitespace-nowrap md:whitespace-normal
         p-2 md:p-4
-        md:fixed md:top-18 md:bottom-0  md:ml-0
+        md:fixed md:top-18 md:bottom-0 md:left-0
       "
     >
       {categories.map((category) => (
