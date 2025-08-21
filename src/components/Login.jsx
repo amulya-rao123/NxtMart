@@ -50,7 +50,7 @@ const Login = () => {
           "url('https://media.licdn.com/dms/image/v2/D5610AQF5zi9H381FAQ/image-shrink_800/image-shrink_800/0/1721754093449?e=2147483647&v=beta&t=nVutgtaOJRkT4Q6aQIX9iAIzdJzF004LEeFP2cZYAD0')",
       }}
     >
-      <div className="absolute inset-0 bg-black opacity-90 backdrop-blur-sm"></div>
+      <div className="absolute inset-0 bg-black opacity-80 backdrop-blur-sm"></div>
       <div className="relative z-10 p-6 sm:p-8 rounded-2xl shadow-2xl w-full max-w-md bg-gray-600 bg-opacity-80 backdrop-blur-sm transform transition-all duration-500 ease-in-out hover:scale-105">
         <div className="flex flex-col items-center justify-center">
           <img
